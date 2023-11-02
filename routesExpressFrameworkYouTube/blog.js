@@ -9,4 +9,13 @@ let id = req.params.id;
 res.send(id);
 });
 
+const BlogModel = require('../Model/blog')
+route.post('/insert', async (req,res)=>{
+
+        const blog = new BlogModel(req.body);
+        let data = await blog.save();
+        res.json(data);
+    
+});
+
 module.exports = route;

@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon 03_appBlockUser.js",
-    "start":"node 01_app.js"
+    "start": "node 01_app.js"
   },
   "author": "Dada",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^8.0.0",
     "nodemon": "^3.0.1"
   }
 }
