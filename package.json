@@ -1,0 +1,16 @@
+{
+  "name": "nodejsexpressframeworkyoutube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon 03_appBlockUser.js",
+    "start":"node 01_app.js"
+  },
+  "author": "Dada",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
